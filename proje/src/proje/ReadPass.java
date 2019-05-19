@@ -15,7 +15,7 @@ import java.util.Scanner;
 public class ReadPass extends javax.swing.JFrame{
     
     	String data;
-        String[] strArray={null,null,null,null,null};
+        String[] strArray= new String[100];
         
         int i=0;
 	get_password password =  new get_password() {};
@@ -24,7 +24,7 @@ public class ReadPass extends javax.swing.JFrame{
 		      File myObj = new File("save.aattk");
 		      Scanner myReader = new Scanner(myObj); 
 		      while (myReader.hasNextLine()) {
-                        
+                          
                            data=myReader.nextLine();
                            strArray[i]=data;
                            i++;

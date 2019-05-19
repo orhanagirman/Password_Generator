@@ -116,6 +116,7 @@ public class NewJFrame6 extends javax.swing.JFrame {
         /*if(get_password.getName().equals(username_text.getText()))){
             
         }*/
+        this.hide();
     }//GEN-LAST:event_login_buttonActionPerformed
 
     /**

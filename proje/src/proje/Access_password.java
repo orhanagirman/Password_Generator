@@ -122,6 +122,7 @@ public class Access_password extends javax.swing.JFrame {
         password.read();
         if(password.getName().equals(username_text.getText())){
             if(password.getPass().equals(password_text.getText())){
+                this.hide();
                 readPass.read();
             }
             
