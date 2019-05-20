@@ -96,7 +96,7 @@ public class Advanced extends javax.swing.JFrame {
             }
         });
 
-        back_button.setText("<-BACK");
+        back_button.setText("<<Back");
         back_button.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 back_buttonActionPerformed(evt);
@@ -507,6 +507,7 @@ public class Advanced extends javax.swing.JFrame {
            JOptionPane.showMessageDialog(rootPane, "No password to save.");
        }
        else{
+            setVisible(false);
            new Save_password(yourpasswordprint_label).setVisible(true);
        }
     }//GEN-LAST:event_save_buttonActionPerformed

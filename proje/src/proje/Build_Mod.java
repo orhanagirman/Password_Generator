@@ -57,7 +57,7 @@ public class Build_Mod extends javax.swing.JFrame {
             }
         });
 
-        back_button.setText("<-BACK");
+        back_button.setText("<<Back");
         back_button.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 back_buttonActionPerformed(evt);

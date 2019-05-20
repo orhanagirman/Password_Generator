@@ -41,7 +41,7 @@ public class Access_password extends javax.swing.JFrame {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
-        back_button.setText("<-BACK");
+        back_button.setText("<<Back");
         back_button.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 back_buttonActionPerformed(evt);
@@ -122,7 +122,9 @@ public class Access_password extends javax.swing.JFrame {
         password.read();
         if(password.getName().equals(username_text.getText())){
             if(password.getPass().equals(password_text.getText())){
+                this.hide();
                 readPass.read();
+                
             }
             
         }

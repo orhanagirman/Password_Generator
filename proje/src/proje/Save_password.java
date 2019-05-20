@@ -103,6 +103,7 @@ public class Save_password extends javax.swing.JFrame{
             else{
                 writeFile.write(nameStr,passString);
                 setVisible(false);
+                new PasswordGenerator_Main().setVisible(true);
             }
             
     }//GEN-LAST:event_save_file_buttonActionPerformed
