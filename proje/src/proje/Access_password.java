@@ -6,6 +6,7 @@
 package proje;
 
 import java.awt.Toolkit;
+import javax.swing.JOptionPane;
 
 /**
  *
@@ -125,7 +126,13 @@ public class Access_password extends javax.swing.JFrame {
                 this.hide();
                 readPass.read();
             }
+            else{
+                 JOptionPane.showMessageDialog(rootPane, "User Name and/or Password is in correct."); 
+            }
             
+        }
+        else{
+             JOptionPane.showMessageDialog(rootPane, "User Name and/or Password is in correct."); 
         }
             
     }//GEN-LAST:event_login_buttonActionPerformed
