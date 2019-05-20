@@ -26,13 +26,6 @@ public class list_password extends javax.swing.JFrame {
         setResizable(false);
         this.strArray=strArray;
     }
-    public list_password() {
-        initComponents();
-        setTitle("List Of Password");
-        setIconImage(Toolkit.getDefaultToolkit().getImage(getClass().getResource("password_image.png")));
-        setResizable(false);
-        
-    }
       
 
     /**
