@@ -6,7 +6,6 @@
 package Password_Generator;
 import java.io.FileWriter;
 import java.io.IOException;
-import javax.swing.table.DefaultTableModel;
 /**
  *
  * @author orhan
@@ -27,22 +26,4 @@ public class WriteFile {
 		      e.printStackTrace();
 		    }     
 	}
-        public void write(DefaultTableModel dtm,javax.swing.JTable JTable){
-            
-            try { 
-		      FileWriter myWriter = new FileWriter("save.aattk");
-                      
-                      for(int i=0;i<JTable.getRowCount();i++){
-                            int j=0;
-                            myWriter.write((String)dtm.getValueAt(i, j)+" : "+(String)dtm.getValueAt(i, j+1)+"\n");
-                          
-                      }
-		      
-		      myWriter.close();
-		      System.out.println("Successfully saved :)");
-		    } catch (IOException e) {
-		      System.out.println("An error occurred.");
-		      e.printStackTrace();
-		    }     
-        }
 }

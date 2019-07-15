@@ -127,12 +127,12 @@ public class Access_password extends javax.swing.JFrame {
                 readPass.read();
             }
             else{
-                 JOptionPane.showMessageDialog(rootPane, "User Name and/or Password is incorrect."); 
+                 JOptionPane.showMessageDialog(rootPane, "User Name and/or Password is in correct."); 
             }
             
         }
         else{
-             JOptionPane.showMessageDialog(rootPane, "User Name and/or Password is incorrect."); 
+             JOptionPane.showMessageDialog(rootPane, "User Name and/or Password is in correct."); 
         }
             
     }//GEN-LAST:event_login_buttonActionPerformed
